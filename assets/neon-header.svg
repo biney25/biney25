@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 310" role="img" aria-label="Neon developer header">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="50%" stop-color="#110507"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5a0000"/>
+      <stop offset="50%" stop-color="#ff2b2b"/>
+      <stop offset="100%" stop-color="#5a0000"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#2b1515" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="310" fill="url(#bg)"/>
+  <rect width="1200" height="310" fill="url(#grid)" opacity=".35"/>
+
+  <g opacity=".5">
+    <circle cx="95" cy="70" r="2" fill="#ff3030">
+      <animate attributeName="opacity" values=".1;1;.1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="100" r="2" fill="#ff3030">
+      <animate attributeName="opacity" values="1;.15;1" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1130" cy="220" r="1.5" fill="#ff6060">
+      <animate attributeName="opacity" values=".15;.9;.15" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <path d="M0 240 C180 190, 300 270, 470 225 S800 185, 1200 235" fill="none" stroke="#6e0000" stroke-width="2" opacity=".65"/>
+  <path d="M0 247 C180 197, 300 277, 470 232 S800 192, 1200 242" fill="none" stroke="#ff2b2b" stroke-width="2" opacity=".22">
+    <animate attributeName="stroke-dashoffset" from="0" to="-900" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dasharray" values="10 18;42 22;10 18" dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="monospace" text-anchor="middle">
+    <text x="600" y="115" fill="#ffffff" font-size="52" font-weight="700" letter-spacing="6">TUSHAR AGGARWAL</text>
+    <text x="600" y="158" fill="#ff3030" font-size="20" letter-spacing="4">DATA SCIENCE • ENGINEERING • SYSTEMS</text>
+    <text x="600" y="202" fill="#9a9a9a" font-size="15" letter-spacing="2">LEARN THE FUNDAMENTALS → BUILD THE SYSTEM → GO DEEPER</text>
+  </g>
+
+  <g transform="translate(535,265)">
+    <rect x="0" y="0" width="330" height="3" rx="2" fill="#420000"/>
+    <rect x="0" y="0" width="70" height="3" rx="2" fill="url(#red)" filter="url(#glow)">
+      <animate attributeName="x" values="-70;330;-70" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
