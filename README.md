@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/biney25/biney25/main/assets/neon-header.svg" width="100%" alt="Tushar Aggarwal — DTU Data Science"/>
+<img src="https://raw.githubusercontent.com/biney25/biney25/main/assets/neon-header.svg" width="100%" alt="Tushar Aggarwal | DTU Data Science"/>
 
 <br/>
 
