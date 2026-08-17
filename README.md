@@ -9,7 +9,7 @@
 <br/><br/>
 
 <a href="https://tushar-photos.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Photography-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Photography"/>
+  <img src="https://img.shields.io/badge/Photography-000000?style=for-the-badge&logo=unsplash&logoColor=white" alt="Photography"/>
 </a>
 <a href="https://www.instagram.com/tushar.aggarwal25/" target="_blank">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
@@ -46,5 +46,5 @@ Hi, I'm Tushar. Just another human trying to figure things out.
 ---
 
 <div align="center">
-  <sub><em>Whatever will be, will be.</em></sub>
+  <sub><em>QUE SERA, SERA. WHATEVER WILL BE, WILL BE. THE FUTURE'S NOT OURS TO SEE.</em></sub>
 </div>
