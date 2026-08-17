@@ -1,55 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 310" role="img" aria-label="Neon developer header">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-label="Tushar Aggarwal - DTU Data Science">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#050505"/>
-      <stop offset="50%" stop-color="#110507"/>
+      <stop offset="50%" stop-color="#0f0406"/>
       <stop offset="100%" stop-color="#050505"/>
     </linearGradient>
-    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5a0000"/>
+    <linearGradient id="crimson" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a0000"/>
       <stop offset="50%" stop-color="#ff2b2b"/>
-      <stop offset="100%" stop-color="#5a0000"/>
+      <stop offset="100%" stop-color="#4a0000"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <linearGradient id="bloodGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff1a1a" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#4a0000" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#2b1515" stroke-width="1"/>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#220b0e" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="310" fill="url(#bg)"/>
-  <rect width="1200" height="310" fill="url(#grid)" opacity=".35"/>
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity="0.45"/>
 
-  <g opacity=".5">
-    <circle cx="95" cy="70" r="2" fill="#ff3030">
-      <animate attributeName="opacity" values=".1;1;.1" dur="2s" repeatCount="indefinite"/>
+  <!-- Subtle ambient top red glow -->
+  <ellipse cx="600" cy="0" rx="450" ry="120" fill="url(#bloodGlow)" opacity="0.25"/>
+
+  <!-- Animated pulsating signal dots -->
+  <g opacity="0.6">
+    <circle cx="120" cy="80" r="2.5" fill="#ff3333">
+      <animate attributeName="opacity" values="0.1;1;0.1" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1050" cy="100" r="2" fill="#ff3030">
-      <animate attributeName="opacity" values="1;.15;1" dur="2.8s" repeatCount="indefinite"/>
+    <circle cx="1080" cy="90" r="2.5" fill="#ff3333">
+      <animate attributeName="opacity" values="1;0.15;1" dur="3s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1130" cy="220" r="1.5" fill="#ff6060">
-      <animate attributeName="opacity" values=".15;.9;.15" dur="1.7s" repeatCount="indefinite"/>
+    <circle cx="980" cy="240" r="2" fill="#ff5555">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="230" r="1.5" fill="#ff5555">
+      <animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.6s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <path d="M0 240 C180 190, 300 270, 470 225 S800 185, 1200 235" fill="none" stroke="#6e0000" stroke-width="2" opacity=".65"/>
-  <path d="M0 247 C180 197, 300 277, 470 232 S800 192, 1200 242" fill="none" stroke="#ff2b2b" stroke-width="2" opacity=".22">
-    <animate attributeName="stroke-dashoffset" from="0" to="-900" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-dasharray" values="10 18;42 22;10 18" dur="5s" repeatCount="indefinite"/>
+  <!-- Laser scanning pulse lines -->
+  <path d="M0 245 C200 215, 420 270, 600 235 S950 205, 1200 245" fill="none" stroke="#500005" stroke-width="2" opacity="0.6"/>
+  <path d="M0 245 C200 215, 420 270, 600 235 S950 205, 1200 245" fill="none" stroke="#ff2b2b" stroke-width="2.5" opacity="0.3" filter="url(#softGlow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-1200" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dasharray" values="20 40;60 30;20 40" dur="4.5s" repeatCount="indefinite"/>
   </path>
 
-  <g font-family="monospace" text-anchor="middle">
-    <text x="600" y="115" fill="#ffffff" font-size="52" font-weight="700" letter-spacing="6">TUSHAR AGGARWAL</text>
-    <text x="600" y="158" fill="#ff3030" font-size="20" letter-spacing="4">DATA SCIENCE • ENGINEERING • SYSTEMS</text>
-    <text x="600" y="202" fill="#9a9a9a" font-size="15" letter-spacing="2">LEARN THE FUNDAMENTALS → BUILD THE SYSTEM → GO DEEPER</text>
+  <!-- Main Text Hierarchy -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'JetBrains Mono', monospace" text-anchor="middle">
+    <!-- Tagline Top -->
+    <text x="600" y="72" fill="#888888" font-size="13" font-weight="600" letter-spacing="4">DELHI TECHNOLOGICAL UNIVERSITY • DATA SCIENCE</text>
+    
+    <!-- Name with glow -->
+    <text x="600" y="132" fill="#ffffff" font-size="54" font-weight="800" letter-spacing="6" filter="url(#softGlow)">TUSHAR AGGARWAL</text>
+    
+    <!-- Philosophical subline -->
+    <text x="600" y="178" fill="#ff3b3b" font-size="18" font-weight="600" letter-spacing="3.5">“Whatever will be, will be. The future's not ours to see.”</text>
+    
+    <!-- Tags -->
+    <text x="600" y="218" fill="#a0a0a0" font-size="13.5" font-weight="500" letter-spacing="2.5">STUDENT • PHOTOGRAPHY • INFP-T • BUILDING QUIETLY</text>
   </g>
 
-  <g transform="translate(535,265)">
-    <rect x="0" y="0" width="330" height="3" rx="2" fill="#420000"/>
-    <rect x="0" y="0" width="70" height="3" rx="2" fill="url(#red)" filter="url(#glow)">
-      <animate attributeName="x" values="-70;330;-70" dur="2.2s" repeatCount="indefinite"/>
+  <!-- Bottom animated progress / scanner track -->
+  <g transform="translate(425, 275)">
+    <rect x="0" y="0" width="350" height="3.5" rx="2" fill="#2d0004"/>
+    <rect x="0" y="0" width="90" height="3.5" rx="2" fill="url(#crimson)" filter="url(#glow)">
+      <animate attributeName="x" values="-90;350;-90" dur="2.6s" repeatCount="indefinite"/>
     </rect>
   </g>
 </svg>
