@@ -5,23 +5,27 @@
 <br/>
 
 <a href="https://github.com/biney25">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=E53935&center=true&vCenter=true&width=650&lines=hi%2C+i'm+tushar;just+another+human+lol;1st+year+data+science+%40+dtu;learning+c+%26+python;whatever+will+be%2C+will+be" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2800&pause=900&color=F472B6&center=true&vCenter=true&width=650&lines=hi%2C+i'm+tushar;just+another+human+lol;1st+year+data+science+%40+dtu;learning+c+%26+python;whatever+will+be%2C+will+be" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
 
-<img src="https://media.giphy.com/media/HAi4i45T0pAdGERov4/giphy.gif" alt="Dexter" width="340"/>
+<img src="https://media.giphy.com/media/HAi4i45T0pAdGERov4/giphy.gif" alt="Dexter" width="320"/>
 
 <br/><br/>
 
+<!-- Colorful Social Badges -->
 <a href="https://tushar-photos.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/photos-tushar--photos.vercel.app-111111?style=flat-square&labelColor=7f1d1d&color=111111" alt="Photos"/>
+  <img src="https://img.shields.io/badge/Photography-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Photography"/>
 </a>
 <a href="https://www.instagram.com/tushar.aggarwal25/" target="_blank">
-  <img src="https://img.shields.io/badge/ig-@tushar.aggarwal25-111111?style=flat-square&labelColor=7f1d1d&color=111111" alt="Instagram"/>
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+</a>
+<a href="https://open.spotify.com/user/31zlcymsqnuwydglpyb2p2y3f26i?si=f3519cc1e336487e" target="_blank">
+  <img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"/>
 </a>
 <a href="mailto:tusharaggarwal292@gmail.com">
-  <img src="https://img.shields.io/badge/email-contact-111111?style=flat-square&labelColor=7f1d1d&color=111111" alt="Email"/>
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
 </div>
@@ -34,9 +38,9 @@ hi, i'm tushar. just another human trying to figure things out lol.
 
 - 🎓 1st year Integrated B.Sc. + M.Sc. in Data Science at **DTU**
 - 💻 currently learning C, Python, math, and general systems stuff from scratch
-- 🎮 used to run & manage high-traffic Minecraft servers (hypixel-style setups with public plugins)
+- 🎮 worked with **Bunny MC**, **ForgeFX**, **GlacierMC**, and more as developer & manager
 - 📸 take [photos](https://tushar-photos.vercel.app/) when i'm free / bored
-- 🧠 infp-t, not trying to be a tech guru or anything, just taking it day by day
+- 🎵 listen to music on [spotify](https://open.spotify.com/user/31zlcymsqnuwydglpyb2p2y3f26i?si=f3519cc1e336487e)
 
 ---
 
@@ -51,7 +55,7 @@ hi, i'm tushar. just another human trying to figure things out lol.
 <div align="center">
 
 <a href="https://github.com/biney25">
-  <img src="https://streak-stats.demolab.com?user=biney25&theme=dark&hide_border=true&background=0D1117&ring=F44336&fire=F44336&currStreakLabel=F44336" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=biney25&theme=dark&hide_border=true&background=0E0914&ring=F472B6&fire=F472B6&currStreakLabel=A78BFA" alt="GitHub Streak"/>
 </a>
 
 <br/><br/>
