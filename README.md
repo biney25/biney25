@@ -11,13 +11,10 @@
 <a href="https://tushar-photos.vercel.app/" target="_blank">
   <img src="https://img.shields.io/badge/Photography-000000?style=for-the-badge&logo=unsplash&logoColor=white" alt="Photography"/>
 </a>
-<a href="https://www.instagram.com/tushar.aggarwal25/" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-</a>
 <a href="https://open.spotify.com/user/31zlcymsqnuwydglpyb2p2y3f26i?si=f3519cc1e336487e" target="_blank">
   <img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"/>
 </a>
-<a href="mailto:tusharaggarwal292@gmail.com">
+<a href="mailto:zigzaganime@gmail.com">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
